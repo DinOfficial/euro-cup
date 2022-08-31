@@ -1,7 +1,7 @@
 /* for tablet */
 @media screen and (max-width: 900px) {
   .container {
-    margin: 0 50px;
+    margin: 0 70px !important;
   }
   /* hero section tablet */
   .hero_section {
@@ -58,7 +58,7 @@
 /* for mobile */
 @media screen and (max-width: 900px) {
   .container {
-    margin: 0 10px;
+    margin: 0 10px !important;
   }
   /* hero section tablet */
   .hero_section {
@@ -110,10 +110,18 @@
     width: 100% !important;
   }
   .card {
-    width: 48% !important;
+    width: 100% !important;
     border-radius: 12px !important;
   }
   .section_tablet {
+    display: none !important;
+  }
+  .footer_nav {
     display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 }
