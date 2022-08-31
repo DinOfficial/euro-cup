@@ -75,17 +75,8 @@ body {
 }
 .hero_section .right_content img {
   width: 460px;
-  animation: dancing infinite ease-in-out;
-  animation-play-state: running;
 }
-@keyframes dancing {
-  from {
-    background-color: blue;
-  }
-  to {
-    background-color: red;
-  }
-}
+
 /* Player Card Section css */
 .player_card_section {
   width: 100%;
@@ -115,10 +106,22 @@ body {
   width: 32%;
   border: 1px solid #000;
   border-radius: 10px;
+  text-align: center;
 }
 .player_card_section .player_card .card .card_img img {
   width: 100%;
 }
+.player_card_section .player_card .card .card_img_match {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+.player_card_section .player_card .card .card_img_match img {
+  width: 80px;
+}
+
 .player_card_section .player_card .card h4 {
   font-size: 16px;
   margin: 10px;
